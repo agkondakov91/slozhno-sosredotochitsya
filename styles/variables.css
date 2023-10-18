@@ -4,6 +4,9 @@
 */
 
 :root {
+  --main-font-family: 'IBM Plex mono', monospace;
+  --main-text-size: 18px;
+  --main-line-height: 130%;
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
   --logo-color: #DB00FF;

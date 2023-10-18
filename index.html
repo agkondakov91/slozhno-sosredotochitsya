@@ -14,10 +14,11 @@
       content="обучение, html, практика, css, верстка, адаптив, JS, JavaScript"
     />
     <meta name="author" content="Александр Кондаков" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
     <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
@@ -26,6 +27,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
+      <span class="header__rec" aria-hidden="true">rec</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -52,6 +54,13 @@
           </li>
         </ul>
       </nav>
+      <div class="header__content">
+        <h1 class="header__logo">no focus</h1>
+        <p class="header__subtitle title-decor">
+          Что делать, когда не можешь делать ничего. Или почему нам так сложно
+          сконцентрироваться, особенно когда очень надо
+        </p>
+      </div>
     </header>
     <main class="main">
       <section
