@@ -7,7 +7,7 @@
 }
 
 body {
-  min-inline-size: 375px;
+  min-inline-size: 320px;
   max-inline-size: 1440px;
   margin: 0 auto;
   font-family: var(--main-font-family);
